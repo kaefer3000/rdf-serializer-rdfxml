@@ -1,0 +1,28 @@
+{
+  "name": "rdf-serializer-rdfxml",
+  "version": "0.0.1",
+  "description": "A RDF/XML Serializer for rdf-ext",
+  "main": "index.js",
+  "keywords": [
+    "rdf-serializer",
+    "rdf",
+    "RDF/XML"
+  ],
+  "author": "Tobias Käfer",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/kaefer3000/rdf-serializer-rdfxml"
+  },
+  "homepage": "http://github.com/kaefer3000/rdf-serializer-rdfxml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaefer3000/rdf-serializer-rdfxml"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "rdf-serializer-abstract": "^0.3.0",
+    "rdf-ext": "^0.3.0",
+    "xml-writer":"^1.7.0"
+  }
+}
+
