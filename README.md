@@ -26,4 +26,6 @@ var configuredBodyParser = rdfBodyParser({'formats' : formats});
 app = express();
 // Make the app use the rdf-ext body parser configured to also serialize to RDF/XML
 app.use(configuredBodyParser);
+
+// Proceed as usual with rdf-ext's body parsers.
 ````
