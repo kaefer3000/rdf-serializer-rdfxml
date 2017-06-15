@@ -22,7 +22,15 @@
     "inherits": "^2.0.1",
     "rdf-serializer-abstract": "^0.3.0",
     "rdf-ext": "^0.3.0",
-    "xml-writer":"^1.7.0"
+    "xml-writer": "^1.7.0"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
   }
 }
-
